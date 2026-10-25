@@ -2,12 +2,14 @@
 
 > ✅ Você é a primeira. Pode começar agora.
 
-## 1. Baixe o projeto oficial numa pasta nova
+## 1. Atualize o projeto oficial
+
+Na pasta do projeto oficial (`blog-educacional-backend`):
 
 ```powershell
-git clone https://github.com/RenanVenturini/blog-educacional-backend.git blog-oficial
-cd blog-oficial
+git fetch
 git checkout fase-04-mobile
+git pull
 ```
 
 ## 2. Copie a sua pasta
@@ -18,7 +20,7 @@ No **Explorador de Arquivos do Windows** (não use o VS Code), abra a pasta **`p
 
 ## 3. Cole no projeto oficial
 
-Ainda no **Explorador de Arquivos**, abra a pasta **`blog-oficial`** e aperte **Ctrl+V**.
+Ainda no **Explorador de Arquivos**, abra a pasta do projeto oficial e aperte **Ctrl+V**.
 Se o Windows perguntar, clique em **"Substituir os arquivos no destino"**.
 
 ## 4. Envie

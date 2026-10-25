@@ -7,6 +7,7 @@
 Na pasta do projeto oficial (`blog-educacional-backend`), entre na branch da Gabrielle e crie a sua a partir dela:
 
 ```powershell
+git fetch
 git checkout fase-04-mobile
 git pull
 git checkout -b feature/fase4-renan

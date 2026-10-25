@@ -14,4 +14,14 @@ Cada pessoa tem uma **pasta** aqui com os seus arquivos. É só **copiar a pasta
 - Copie **só a sua pasta**.
 - O app mobile só abre completo depois da parte da Amanda. Isso é normal.
 
+## Branches
+
+| Pessoa | Branch | Criada a partir de |
+| --- | --- | --- |
+| Gabrielle | `fase-04-mobile` | — (já enviada) |
+| Renan | `feature/fase4-renan` | `fase-04-mobile` |
+| Amanda | `feature/fase4-amanda` | `feature/fase4-renan` |
+
+Cada um abre um Pull Request para a `fase-04-mobile`. Para juntar tudo, aprove e faça o merge **primeiro o do Renan e depois o da Amanda**.
+
 **Projeto oficial:** https://github.com/RenanVenturini/blog-educacional-backend (branch `fase-04-mobile`)

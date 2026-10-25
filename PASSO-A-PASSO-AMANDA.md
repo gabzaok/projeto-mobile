@@ -2,24 +2,32 @@
 
 > ⚠️ Espere o **Renan** avisar no grupo que fez o push.
 
-## 1. Atualize o projeto oficial
+## 1. Atualize o projeto oficial e crie a sua branch
 
-Na pasta do projeto oficial (`blog-educacional-backend`):
+Na pasta do projeto oficial (`blog-educacional-backend`), entre na branch do Renan e crie a sua a partir dela:
 
 ```powershell
-git checkout fase-04-mobile
+git fetch
+git checkout feature/fase4-renan
 git pull
+git checkout -b feature/fase4-amanda
+```
+
+Confira que está na sua branch (tem que aparecer `feature/fase4-amanda`):
+
+```powershell
+git branch --show-current
 ```
 
 ## 2. Copie a sua pasta
 
-Abra a pasta **`parte-3-amanda`**, aperte **Ctrl+A** e depois **Ctrl+C**.
+No **Explorador de Arquivos do Windows** (não use o VS Code), abra a pasta **`parte-3-amanda`**, aperte **Ctrl+A** e depois **Ctrl+C**.
 
  Obs: Não incluir a pasta `parte-3-amanda`, somente o conteudo dentro dela.
 
 ## 3. Cole no projeto oficial
 
-Abra a pasta do projeto oficial e aperte **Ctrl+V**.
+Ainda no **Explorador de Arquivos**, abra a pasta do projeto oficial e aperte **Ctrl+V**.
 Se o Windows perguntar, clique em **"Substituir os arquivos no destino"**.
 
 ## 4. Envie
@@ -55,9 +63,18 @@ Confira que não sobrou nada (tem que aparecer "nothing to commit") e envie:
 
 ```powershell
 git status
-git push
+git push -u origin feature/fase4-amanda
 ```
 
-## 5. Avise no grupo
+## 5. Abra o Pull Request
 
-> "Fiz o push, o projeto está completo!"
+No GitHub do projeto oficial, clique em **"Compare & pull request"** e confira:
+
+- **base:** `fase-04-mobile`
+- **compare:** `feature/fase4-amanda`
+
+Depois clique em **"Create pull request"**.
+
+## 6. Avise no grupo
+
+> "Fiz o push na branch feature/fase4-amanda, o projeto está completo!"

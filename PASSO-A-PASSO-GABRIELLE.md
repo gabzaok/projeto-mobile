@@ -12,13 +12,13 @@ git checkout fase-04-mobile
 
 ## 2. Copie a sua pasta
 
-Abra a pasta **`parte-1-gabrielle`**, aperte **Ctrl+A** e depois **Ctrl+C**.
+No **Explorador de Arquivos do Windows** (não use o VS Code), abra a pasta **`parte-1-gabrielle`**, aperte **Ctrl+A** e depois **Ctrl+C**.
 
  Obs: Não incluir a pasta `parte-1-gabrielle`, somente o conteudo dentro dela.
 
 ## 3. Cole no projeto oficial
 
-Abra a pasta **`blog-oficial`** e aperte **Ctrl+V**.
+Ainda no **Explorador de Arquivos**, abra a pasta **`blog-oficial`** e aperte **Ctrl+V**.
 Se o Windows perguntar, clique em **"Substituir os arquivos no destino"**.
 
 ## 4. Envie
